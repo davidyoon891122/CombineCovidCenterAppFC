@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AD7111CD2796E6EA004C27C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111CC2796E6EA004C27C6 /* AppDelegate.swift */; };
 		AD7111CF2796E6EA004C27C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111CE2796E6EA004C27C6 /* SceneDelegate.swift */; };
-		AD7111D12796E6EA004C27C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111D02796E6EA004C27C6 /* ContentView.swift */; };
 		AD7111D32796E6EB004C27C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7111D22796E6EB004C27C6 /* Assets.xcassets */; };
 		AD7111D62796E6EB004C27C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7111D52796E6EB004C27C6 /* Preview Assets.xcassets */; };
 		AD7111D92796E6EB004C27C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7111D72796E6EB004C27C6 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,13 @@
 		AD7112002796E735004C27C6 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111FF2796E735004C27C6 /* Center.swift */; };
 		AD7112022796E8FD004C27C6 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112012796E8FD004C27C6 /* CenterAPI.swift */; };
 		AD7112052796E9FF004C27C6 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112042796E9FF004C27C6 /* CenterNetwork.swift */; };
+		AD7112092796ED5A004C27C6 /* SelectRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112082796ED5A004C27C6 /* SelectRegionView.swift */; };
+		AD71120B2796ED7A004C27C6 /* SelectRegionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71120A2796ED7A004C27C6 /* SelectRegionViewModel.swift */; };
+		AD71120D2796EF97004C27C6 /* SelectRegionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71120C2796EF97004C27C6 /* SelectRegionItem.swift */; };
+		AD7112102796F282004C27C6 /* CenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71120F2796F282004C27C6 /* CenterRow.swift */; };
+		AD7112122796F3B5004C27C6 /* CenterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112112796F3B5004C27C6 /* CenterList.swift */; };
+		AD7112162796F5AD004C27C6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112152796F5AD004C27C6 /* MapView.swift */; };
+		AD7112182796F887004C27C6 /* CenterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112172796F887004C27C6 /* CenterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,6 @@
 		AD7111C92796E6EA004C27C6 /* FindCoronaCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoronaCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7111CC2796E6EA004C27C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7111CE2796E6EA004C27C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD7111D02796E6EA004C27C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD7111D22796E6EB004C27C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7111D52796E6EB004C27C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD7111D82796E6EB004C27C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +62,13 @@
 		AD7111FF2796E735004C27C6 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
 		AD7112012796E8FD004C27C6 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
 		AD7112042796E9FF004C27C6 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
+		AD7112082796ED5A004C27C6 /* SelectRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionView.swift; sourceTree = "<group>"; };
+		AD71120A2796ED7A004C27C6 /* SelectRegionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionViewModel.swift; sourceTree = "<group>"; };
+		AD71120C2796EF97004C27C6 /* SelectRegionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionItem.swift; sourceTree = "<group>"; };
+		AD71120F2796F282004C27C6 /* CenterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRow.swift; sourceTree = "<group>"; };
+		AD7112112796F3B5004C27C6 /* CenterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterList.swift; sourceTree = "<group>"; };
+		AD7112152796F5AD004C27C6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AD7112172796F887004C27C6 /* CenterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +123,11 @@
 				AD7111FE2796E70C004C27C6 /* Entities */,
 				AD7111CC2796E6EA004C27C6 /* AppDelegate.swift */,
 				AD7111CE2796E6EA004C27C6 /* SceneDelegate.swift */,
-				AD7111D02796E6EA004C27C6 /* ContentView.swift */,
 				AD7111D22796E6EB004C27C6 /* Assets.xcassets */,
 				AD7111D72796E6EB004C27C6 /* LaunchScreen.storyboard */,
 				AD7111DA2796E6EB004C27C6 /* Info.plist */,
 				AD7111D42796E6EB004C27C6 /* Preview Content */,
+				AD71120E2796F090004C27C6 /* Presentation */,
 			);
 			path = FindCoronaCenter;
 			sourceTree = "<group>";
@@ -162,6 +174,44 @@
 				AD7112042796E9FF004C27C6 /* CenterNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		AD71120E2796F090004C27C6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AD7112132796F588004C27C6 /* SelectRegionView */,
+				AD7112142796F597004C27C6 /* CenterList */,
+				AD7112192796F894004C27C6 /* DetailView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AD7112132796F588004C27C6 /* SelectRegionView */ = {
+			isa = PBXGroup;
+			children = (
+				AD7112082796ED5A004C27C6 /* SelectRegionView.swift */,
+				AD71120A2796ED7A004C27C6 /* SelectRegionViewModel.swift */,
+				AD71120C2796EF97004C27C6 /* SelectRegionItem.swift */,
+			);
+			path = SelectRegionView;
+			sourceTree = "<group>";
+		};
+		AD7112142796F597004C27C6 /* CenterList */ = {
+			isa = PBXGroup;
+			children = (
+				AD71120F2796F282004C27C6 /* CenterRow.swift */,
+				AD7112112796F3B5004C27C6 /* CenterList.swift */,
+			);
+			path = CenterList;
+			sourceTree = "<group>";
+		};
+		AD7112192796F894004C27C6 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				AD7112152796F5AD004C27C6 /* MapView.swift */,
+				AD7112172796F887004C27C6 /* CenterDetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,13 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7112122796F3B5004C27C6 /* CenterList.swift in Sources */,
+				AD71120D2796EF97004C27C6 /* SelectRegionItem.swift in Sources */,
 				AD7112002796E735004C27C6 /* Center.swift in Sources */,
+				AD71120B2796ED7A004C27C6 /* SelectRegionViewModel.swift in Sources */,
+				AD7112162796F5AD004C27C6 /* MapView.swift in Sources */,
+				AD7112092796ED5A004C27C6 /* SelectRegionView.swift in Sources */,
 				AD7111FD2796E70A004C27C6 /* CenterAPIResponse.swift in Sources */,
+				AD7112102796F282004C27C6 /* CenterRow.swift in Sources */,
+				AD7112182796F887004C27C6 /* CenterDetailView.swift in Sources */,
 				AD7111CD2796E6EA004C27C6 /* AppDelegate.swift in Sources */,
 				AD7112022796E8FD004C27C6 /* CenterAPI.swift in Sources */,
 				AD7111CF2796E6EA004C27C6 /* SceneDelegate.swift in Sources */,
 				AD7112052796E9FF004C27C6 /* CenterNetwork.swift in Sources */,
-				AD7111D12796E6EA004C27C6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
