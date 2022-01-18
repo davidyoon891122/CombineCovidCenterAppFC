@@ -15,6 +15,10 @@
 		AD7111D92796E6EB004C27C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7111D72796E6EB004C27C6 /* LaunchScreen.storyboard */; };
 		AD7111E42796E6EB004C27C6 /* FindCoronaCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111E32796E6EB004C27C6 /* FindCoronaCenterTests.swift */; };
 		AD7111EF2796E6EB004C27C6 /* FindCoronaCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111EE2796E6EB004C27C6 /* FindCoronaCenterUITests.swift */; };
+		AD7111FD2796E70A004C27C6 /* CenterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111FC2796E70A004C27C6 /* CenterAPIResponse.swift */; };
+		AD7112002796E735004C27C6 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7111FF2796E735004C27C6 /* Center.swift */; };
+		AD7112022796E8FD004C27C6 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112012796E8FD004C27C6 /* CenterAPI.swift */; };
+		AD7112052796E9FF004C27C6 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7112042796E9FF004C27C6 /* CenterNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		AD7111EA2796E6EB004C27C6 /* FindCoronaCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCoronaCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7111EE2796E6EB004C27C6 /* FindCoronaCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterUITests.swift; sourceTree = "<group>"; };
 		AD7111F02796E6EB004C27C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7111FC2796E70A004C27C6 /* CenterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIResponse.swift; sourceTree = "<group>"; };
+		AD7111FF2796E735004C27C6 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		AD7112012796E8FD004C27C6 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
+		AD7112042796E9FF004C27C6 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		AD7111CB2796E6EA004C27C6 /* FindCoronaCenter */ = {
 			isa = PBXGroup;
 			children = (
+				AD7112032796E905004C27C6 /* Network */,
+				AD7111FE2796E70C004C27C6 /* Entities */,
 				AD7111CC2796E6EA004C27C6 /* AppDelegate.swift */,
 				AD7111CE2796E6EA004C27C6 /* SceneDelegate.swift */,
 				AD7111D02796E6EA004C27C6 /* ContentView.swift */,
@@ -134,6 +144,24 @@
 				AD7111F02796E6EB004C27C6 /* Info.plist */,
 			);
 			path = FindCoronaCenterUITests;
+			sourceTree = "<group>";
+		};
+		AD7111FE2796E70C004C27C6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AD7111FC2796E70A004C27C6 /* CenterAPIResponse.swift */,
+				AD7111FF2796E735004C27C6 /* Center.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AD7112032796E905004C27C6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AD7112012796E8FD004C27C6 /* CenterAPI.swift */,
+				AD7112042796E9FF004C27C6 /* CenterNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7112002796E735004C27C6 /* Center.swift in Sources */,
+				AD7111FD2796E70A004C27C6 /* CenterAPIResponse.swift in Sources */,
 				AD7111CD2796E6EA004C27C6 /* AppDelegate.swift in Sources */,
+				AD7112022796E8FD004C27C6 /* CenterAPI.swift in Sources */,
 				AD7111CF2796E6EA004C27C6 /* SceneDelegate.swift in Sources */,
+				AD7112052796E9FF004C27C6 /* CenterNetwork.swift in Sources */,
 				AD7111D12796E6EA004C27C6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
